@@ -11,6 +11,7 @@
   inputs.src-gyaric-v1_0_2.ref   = "refs/tags/v1.0.2";
   inputs.src-gyaric-v1_0_2.owner = "jiro4989";
   inputs.src-gyaric-v1_0_2.repo  = "gyaric";
+  inputs.src-gyaric-v1_0_2.dir   = "";
   inputs.src-gyaric-v1_0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

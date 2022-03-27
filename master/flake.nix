@@ -11,6 +11,7 @@
   inputs.src-gyaric-master.ref   = "refs/heads/master";
   inputs.src-gyaric-master.owner = "jiro4989";
   inputs.src-gyaric-master.repo  = "gyaric";
+  inputs.src-gyaric-master.dir   = "";
   inputs.src-gyaric-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
